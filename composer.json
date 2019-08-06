@@ -1,0 +1,27 @@
+{
+    "name": "inme/activity-logger",
+    "description": "Logging users activity",
+    "license": "MIT",
+    "version": "1.0.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dmytro Gorpynenko",
+            "email": "digorp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Inme\\ActivityLogger\\LogActivityServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Inme\\ActivityLogger\\": "packages/inme/activity-logger/src/"
+        }
+    }
+}
