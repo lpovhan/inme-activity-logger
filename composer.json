@@ -1,5 +1,5 @@
 {
-    "name": "inme/activity-logger",
+    "name": "lpovhan/inme-activity-logger",
     "description": "Logging users activity",
     "license": "MIT",
     "version": "1.0.0",
@@ -10,7 +10,7 @@
             "email": "digorp@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "extra": {
         "laravel": {
