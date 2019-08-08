@@ -1,10 +1,10 @@
 <?php
 
-namespace Inme\ActivityLogger;
+namespace InmeActivityLogger;
 
 /**
  * Class LogActivity
- * @package App\Http\Controllers\Traits
+ * @package InmeActivityLogger
  */
 trait LogActivity
 {

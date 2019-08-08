@@ -18,13 +18,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Inme\\ActivityLogger\\LogActivityServiceProvider"
+                "InmeActivityLogger\\LogActivityServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Inme\\ActivityLogger\\": "packages/inme/activity-logger/src/"
+            "InmeActivityLogger\\": "inme-activity-logger/src/"
         }
     }
 }

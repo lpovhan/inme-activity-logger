@@ -1,12 +1,12 @@
 <?php
 
-namespace Inme\ActivityLogger;
+namespace InmeActivityLogger;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class LogActivityServiceProvider
- * @package Inme\ActivityLogger
+ * @package InmeActivityLogger
  */
 class LogActivityServiceProvider extends ServiceProvider
 {
