@@ -1,6 +1,7 @@
 {
     "name": "lpovhan/inme-activity-logger",
     "description": "Logging users activity",
+    "homepage": "https://github.com/lpovhan/inme-activity-logger",
     "license": "MIT",
     "version": "1.0.0",
     "type": "library",
