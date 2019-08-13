@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "InmeActivityLogger\\": "inme-activity-logger/src/"
+            "InmeActivityLogger\\": "src/"
         }
     }
 }
