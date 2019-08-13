@@ -2,6 +2,8 @@
 
 namespace InmeActivityLogger;
 
+use InmeActivityLogger\Models\OperationStatus;
+
 /**
  * Class LogActivity
  * @package InmeActivityLogger
@@ -80,6 +82,26 @@ trait LogActivity
     public function activityStatus(int $status)
     {
         $this->activityStatus = $status;
+
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function activityStatusFailed()
+    {
+        $this->activityStatus = OperationStatus::FAILED_500;
+
+        return $this;
+    }
+
+    /**
+     * @return $this
+     */
+    public function activityStatusSuccess()
+    {
+        $this->activityStatus = OperationStatus::SUCCESS;
 
         return $this;
     }

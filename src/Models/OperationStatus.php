@@ -1,10 +1,10 @@
 <?php
 
-namespace InmeActivityLogger;
+namespace InmeActivityLogger\Models;
 
 /**
  * Class OperationStatus
- * @package InmeActivityLogger
+ * @package InmeActivityLogger\Models
  */
 class OperationStatus
 {
