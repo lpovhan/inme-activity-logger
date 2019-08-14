@@ -90,7 +90,7 @@ abstract class LogManager
      * @param $id
      * @return mixed
      */
-    abstract public function getSubjectName($id);
+    abstract public static function getSubjectName($id);
 
     /**
      * @param $entity
@@ -103,13 +103,6 @@ abstract class LogManager
     /**
      * @param $subject
      * @param $entityId
-     * @return array|bool|string
-     */
-    abstract public function getEntity($subject, $entityId);
-
-    /**
-     * @param $subject
-     * @param $entityId
      * @return array|null
      * @throws \Exception
      */
@@ -118,6 +111,13 @@ abstract class LogManager
         $entity = $this->getEntity($subject, $entityId);
         return $this->getDataFromEntity($entity, $subject);
     }
+
+    /**
+     * @param $subject
+     * @param $entityId
+     * @return array|bool|string
+     */
+    abstract public function getEntity($subject, $entityId);
 
     /**
      * @param $old
